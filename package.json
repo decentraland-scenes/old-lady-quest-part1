@@ -1,0 +1,25 @@
+{
+  "name": "dcl-project",
+  "version": "1.0.0",
+  "description": "My new Decentraland project",
+  "scripts": {
+    "start": "dcl start",
+    "build": "build-ecs",
+    "watch": "build-ecs --watch",
+    "deploy:now": "dcl export && now export",
+    "ecs:install": "npm install --save-dev decentraland-ecs@latest",
+    "ecs:install-next": "npm install --save-dev decentraland-ecs@next"
+  },
+  "devDependencies": {
+    "decentraland-ecs": "^6.6.5-20210427165023.commit-d96cf05"
+  },
+  "dependencies": {
+    "@dcl/ecs-quests": "^1.2.3-20210422200033.commit-48c967e",
+    "@dcl/npc-scene-utils": "^1.4.1-20210426165810.commit-9252b53",
+    "dcl-quests-client": "^2.6.1"
+  },
+  "bundleDependencies": [
+    "@dcl/ecs-quests",
+    "@dcl/npc-scene-utils"
+  ]
+}
