@@ -1,0 +1,279 @@
+{
+    "id": "80817d29-677c-4b1d-96de-3fedf462be4d",
+    "name": "Old Lady reloaded",
+    "description": "DCL Origin Stories",
+    "thumbnailEntry": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Jack-o%27-Lantern_2003-10-31.jpg",
+    "thumbnailBanner": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Jack-o%27-Lantern_2003-10-31.jpg",
+    "requirements": [],
+    "active": true,
+    "visibility": "secret",
+    "deletedAt": null,
+    "tasks": [
+        {
+            "id": "82549f6d-3a2d-4053-96de-40269b188d3b",
+            "description": "Talk to the old lady",
+            "coordinates": "-133,-42",
+            "required": true,
+            "section": null,
+            "progressMode": {
+                "type": "single"
+            },
+            "requirements": [],
+            "validations": [],
+            "deletedAt": null,
+            "previousTask": null,
+            "rewards": [],
+            "steps": []
+        },
+        {
+            "id": "0ab02600-787f-494c-ac1d-3793d236a61a",
+            "description": "Talk to the Chaman",
+            "coordinates": "74,-7",
+            "required": true,
+            "section": null,
+            "progressMode": {
+                "type": "single"
+            },
+            "requirements": [
+                {
+                    "type": "completedPrevious"
+                }
+            ],
+            "validations": [],
+            "deletedAt": null,
+            "previousTask": {
+                "id": "82549f6d-3a2d-4053-96de-40269b188d3b",
+                "description": "Talk to the old lady",
+                "coordinates": "-133,-42",
+                "required": true,
+                "section": null,
+                "progressMode": {
+                    "type": "single"
+                },
+                "requirements": [],
+                "validations": [],
+                "deletedAt": null
+            },
+            "rewards": [],
+            "steps": []
+        },
+        {
+            "id": "5656b183-a53a-4f95-a1ef-735c382178ef",
+            "description": "Ring the bells of hell",
+            "coordinates": "74,-7",
+            "required": true,
+            "section": null,
+            "progressMode": {
+                "type": "single"
+            },
+            "requirements": [
+                {
+                    "type": "completedPrevious"
+                }
+            ],
+            "validations": [],
+            "deletedAt": null,
+            "previousTask": {
+                "id": "82549f6d-3a2d-4053-96de-40269b188d3b",
+                "description": "Talk to the old lady",
+                "coordinates": "-133,-42",
+                "required": true,
+                "section": null,
+                "progressMode": {
+                    "type": "single"
+                },
+                "requirements": [],
+                "validations": [],
+                "deletedAt": null
+            },
+            "rewards": [],
+            "steps": []
+        },
+        {
+            "id": "aafc3022-5469-4616-8e4a-4ce2d273ac25",
+            "description": "Drink secret potion",
+            "coordinates": "74,-7",
+            "required": true,
+            "section": null,
+            "progressMode": {
+                "type": "single"
+            },
+            "requirements": [
+                {
+                    "type": "completedPrevious"
+                }
+            ],
+            "validations": [],
+            "deletedAt": null,
+            "previousTask": {
+                "id": "82549f6d-3a2d-4053-96de-40269b188d3b",
+                "description": "Talk to the old lady",
+                "coordinates": "-133,-42",
+                "required": true,
+                "section": null,
+                "progressMode": {
+                    "type": "single"
+                },
+                "requirements": [],
+                "validations": [],
+                "deletedAt": null
+            },
+            "rewards": [],
+            "steps": []
+        },
+        {
+            "id": "c07a44ba-4aa7-47ae-a29a-82ecfb2129b7",
+            "description": "Find 10 crystals",
+            "coordinates": "74,-7",
+            "required": true,
+            "section": null,
+            "progressMode": {
+                "type": "numeric",
+                "start": 0,
+                "end": 10,
+                "direction": "up",
+                "unit": "gems"
+            },
+            "requirements": [
+                {
+                    "type": "completedPrevious"
+                }
+            ],
+            "validations": [],
+            "deletedAt": null,
+            "previousTask": {
+                "id": "0ab02600-787f-494c-ac1d-3793d236a61a",
+                "description": "Talk to the Chaman",
+                "coordinates": "74,-7",
+                "required": true,
+                "section": null,
+                "progressMode": {
+                    "type": "single"
+                },
+                "requirements": [
+                    {
+                        "type": "completedPrevious"
+                    }
+                ],
+                "validations": [],
+                "deletedAt": null
+            },
+            "rewards": [],
+            "steps": []
+        },
+        {
+            "id": "a0f00c60-66a2-482e-81ee-c831ff1f8e07",
+            "description": "Bring the gems back to the chaman",
+            "coordinates": "74,-7",
+            "required": true,
+            "section": null,
+            "progressMode": {
+                "type": "single"
+            },
+            "requirements": [
+                {
+                    "type": "completedPrevious"
+                }
+            ],
+            "validations": [],
+            "deletedAt": null,
+            "previousTask": {
+                "id": "c07a44ba-4aa7-47ae-a29a-82ecfb2129b7",
+                "description": "Find 10 crystals",
+                "coordinates": "74,-7",
+                "required": true,
+                "section": null,
+                "progressMode": {
+                    "type": "numeric",
+                    "start": 0,
+                    "end": 10,
+                    "direction": "up",
+                    "unit": "gems"
+                },
+                "requirements": [
+                    {
+                        "type": "completedPrevious"
+                    }
+                ],
+                "validations": [],
+                "deletedAt": null
+            },
+            "rewards": [],
+            "steps": []
+        },
+        {
+            "id": "6cae123e-529b-4c6c-ae5c-0a1fafee95d9",
+            "description": "Enter temple",
+            "coordinates": "74,-7",
+            "required": true,
+            "section": null,
+            "progressMode": {
+                "type": "single"
+            },
+            "requirements": [
+                {
+                    "type": "completedPrevious"
+                }
+            ],
+            "validations": [],
+            "deletedAt": null,
+            "previousTask": {
+                "id": "a0f00c60-66a2-482e-81ee-c831ff1f8e07",
+                "description": "Bring the gems back to the chaman",
+                "coordinates": "74,-7",
+                "required": true,
+                "section": null,
+                "progressMode": {
+                    "type": "single"
+                },
+                "requirements": [
+                    {
+                        "type": "completedPrevious"
+                    }
+                ],
+                "validations": [],
+                "deletedAt": null
+            },
+            "rewards": [],
+            "steps": []
+        },
+        {
+            "id": "c8d6ad3e-1f14-4983-8e15-0eb4f8c83507",
+            "description": "Return to the old lady",
+            "coordinates": "-133,-42",
+            "required": true,
+            "section": null,
+            "progressMode": {
+                "type": "single"
+            },
+            "requirements": [
+                {
+                    "type": "completedPrevious"
+                }
+            ],
+            "validations": [],
+            "deletedAt": null,
+            "previousTask": {
+                "id": "6cae123e-529b-4c6c-ae5c-0a1fafee95d9",
+                "description": "Enter temple",
+                "coordinates": "74,-7",
+                "required": true,
+                "section": null,
+                "progressMode": {
+                    "type": "single"
+                },
+                "requirements": [
+                    {
+                        "type": "completedPrevious"
+                    }
+                ],
+                "validations": [],
+                "deletedAt": null
+            },
+            "rewards": [],
+            "steps": []
+        }
+    ],
+    "rewards": [],
+    "creator": null
+}
